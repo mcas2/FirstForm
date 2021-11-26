@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstForm</string>
+    <string name="introduceName">Introduce aquí tu nombre</string>
+    <string name="introduceSurname">Introduce aquí tus apellidos</string>
+</resources>
