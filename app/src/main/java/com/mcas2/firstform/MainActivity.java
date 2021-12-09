@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView mostrar = (TextView) findViewById(R.id.mostrarTexto);
+        TextView mostrarTexto = (TextView) findViewById(R.id.mostrarTexto);
         EditText nom = (EditText) findViewById(R.id.enombre);
         EditText ap = (EditText) findViewById(R.id.eapellidos);
         CheckBox c1 = (CheckBox) findViewById(R.id.checkBox1);
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mostrar.setText(
+                mostrarTexto.setText(
                         String.format("Usted es %s %s y está %s%s", nom.getText(), ap.getText(), estadoCivil, aficiones.toString())
                 );
             }
